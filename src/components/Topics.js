@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-
+import  "../assets/style/Topice.css";
 class Topics extends Component {
   render() {
     return (

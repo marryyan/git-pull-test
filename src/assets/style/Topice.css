@@ -1,45 +1,45 @@
 
-.content{
+.topics .content{
   width: 1040px;
   margin: 0 auto;
 }
-h1{
+.topics h1{
   color: black;
 }
-ul,li{
+.topics .topics ul,li{
   list-style: none;
   color: grey;
 }
-ul{
+.topics ul{
   width: 675px;
 }
-li{
+.topics li{
   margin-right:20px; 
   display: inline-block;
   font-size: 14px;
 }
-.xian{
+.topics .xian{
  width: 675px;
  border-bottom:1px solid grey;
 }
-.tool{
+.topics .tool{
   width: 675px;
 }
-.sort{
+.topics .sort{
   float: left
 }
-.check{
+.topics .check{
   float:right;
 }
 
-.list-wp{
+.topics .list-wp{
   width: 675px;
 }
-.list{
+.topics .list{
   width: 700px;
   margin-top: 50px;
 }
-.item{
+.topics .item{
   width: 115px;
   text-align: center;
   margin: 0 25px 10px 0;
@@ -47,10 +47,10 @@ li{
   float: left;
   display: block;
 }
-.item img{
+.topics .item img{
   width: 100%;
 }
-.cover-wp{
+.topics .cover-wp{
   background-size: 100%;
   height: 161px;
 }

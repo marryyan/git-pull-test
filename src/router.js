@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import TopicsMode from './components/Topics';
 import HomeMode from './components/Home';
 import AboutMode from './components/About';
-import  "../src/assets/style/Topice.css";
+
 
 const BasicExample = () => (
   <Router>
@@ -30,19 +30,19 @@ const BasicExample = () => (
 );
 
 const Home = () => (
-  <div>
-    <HomeMode />>
+  <div className="home">
+    <HomeMode />
   </div>
 );
 
 const About = () => (
-  <div>
-    <AboutMode />>
+  <div className="about">
+    <AboutMode />
   </div>
 );
 
 const Topics = () => (
-  <div>
+  <div className="topics">
     <TopicsMode />
   </div>
 );
