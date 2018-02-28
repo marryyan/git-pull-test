@@ -4,7 +4,7 @@ class HomeMode extends Component {
   render() {
     return (
       <div>
-        <h1>333</h1>
+       
       </div>
     )
   }

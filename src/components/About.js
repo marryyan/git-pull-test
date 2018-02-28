@@ -4,7 +4,7 @@ class AboutMode extends Component {
   render() {
     return (
       <div>
-        <h1>2222</h1>
+        
       </div>
     )
   }
