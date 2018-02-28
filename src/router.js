@@ -30,13 +30,13 @@ const BasicExample = () => (
 
 const Home = () => (
   <div>
-    <HomeMode />>
+    <HomeMode />
   </div>
 );
 
 const About = () => (
   <div>
-    <AboutMode />>
+    <AboutMode />
   </div>
 );
 
