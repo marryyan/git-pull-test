@@ -18,6 +18,17 @@ module.exports = merge(base, {
           fallback: "style-loader",
           use: "css-loader"
         }) 
+      },
+      {
+        test: /\.less$/,
+        use: ExtractTextWebpackPlugin.extract({
+          use: [{
+              loader: "css-loader"
+            }, {
+              loader: "less-loader"
+            }],
+          fallback: "style-loader"
+        })
       }
     ]
   },

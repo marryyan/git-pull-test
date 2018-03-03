@@ -17,6 +17,17 @@ module.exports = merge(base, {
           "style-loader",
           "css-loader"
         ]
+      },
+      {
+        test: /\.less/,
+        use: [{
+            loader: "style-loader"
+          }, {
+            loader: "css-loader"
+          }, {
+            loader: "less-loader"
+          }],
+        exclude: /node_modules/
       }
     ]
   },
