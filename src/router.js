@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import TopicsMode from './components/Topics';
-import HomeMode from './components/Home';
-import AboutMode from './components/About';
+import TvMode from './components/Tv';
+import HotMode from './components/Hot';
+import MovieMode from './components/Movie';
 
 
 const BasicExample = () => (
